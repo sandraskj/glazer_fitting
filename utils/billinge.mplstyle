@@ -1,0 +1,72 @@
+# Billinge Group MPL Style Sheet
+
+# Note: Blocks are separated by parameters for different figure elements
+
+# Fig 
+figure.figsize: 6, 5
+figure.dpi: 120
+savefig.bbox: tight
+figure.facecolor: white
+
+# Legend
+legend.fontsize: 11
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+# Fonts (falls back on sans if arial not available)
+text.color: black
+font.size: 15
+font.family: arial
+mathtext.fontset: stixsans
+
+# Axes 
+axes.linewidth: 2.0
+axes.labelsize: 16
+axes.labelpad: -5
+axes.titlesize: 14
+axes.labelcolor: black
+axes.facecolor: white
+axes.edgecolor: black
+
+# Ticks
+xtick.labelsize: 15
+ytick.labelsize: 15
+xtick.direction: in
+ytick.direction: in
+xtick.color: black
+ytick.color: black
+xtick.major.width: 1.7
+ytick.major.width: 1.7
+xtick.minor.width: .5
+ytick.minor.width: .5
+xtick.major.pad: 5
+ytick.major.pad: 5
+xtick.major.size: 5
+ytick.major.size: 5
+ytick.right: True
+xtick.top: True
+
+# Lines/Color Cycle
+lines.solid_capstyle: round
+lines.linewidth: 2
+lines.markersize: 5
+lines.markeredgewidth: 0.25
+axes.prop_cycle: cycler('color', ["0B3C5D", "B82601", "1c6b0a", "328CC1", "062F4F", "D9B310", "984B43", "76323F", "626E60", "AB987A", "C09F80"])
+
+# Cmap
+image.cmap: viridis
+
+# Grid (Off)
+axes.grid: False
+grid.color: .8
+grid.linestyle: --
+grid.linewidth: 1
+
+
+
+
+
+
+
+
