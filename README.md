@@ -6,6 +6,9 @@ The resulting "Glazer model" is further fitted to experimental X-ray pair distri
   
 How to run:
 1. Install diffpy-CMI, following instructions here: https://www.diffpy.org/products/diffpycmi/  so it is installed in a conda environment
-2. Clone this repository to your computer.
-3. Open the Jupyter notebook in the conda environment where you installed diffpy-CMI (or select this environment as the kernel)
-4. Run the cells.
+2. Install yaml and psutils in the same environment with the commands:
+  conda install pyyaml
+  conda install -c conda-forge psutil 
+3. Clone this repository to your computer.
+4. Open the Jupyter notebook in the conda environment where you installed diffpy-CMI and dependencies (or select this environment as the kernel)
+5. Run the cells.
