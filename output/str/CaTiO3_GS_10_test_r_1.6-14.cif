@@ -1,7 +1,7 @@
 # CaTiO3_2x2x2-supercell_0_0_0_tilt
 
 data_3D
-_audit_creation_date            2022-02-04
+_audit_creation_date            2022-02-23
 _audit_creation_method          P_cif.py
 
 _symmetry_space_group_name_H-M  'P1'
