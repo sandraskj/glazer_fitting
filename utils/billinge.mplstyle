@@ -17,7 +17,7 @@ legend.scatterpoints: 1
 # Fonts (falls back on sans if arial not available)
 text.color: black
 font.size: 15
-font.family: arial
+font.family: DejaVu Sans
 mathtext.fontset: stixsans
 
 # Axes 
